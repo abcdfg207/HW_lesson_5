@@ -14,6 +14,7 @@ ul{
     margin: 0px;
     font-size:0;
     border: 3px solid white;
+    background-color: white;
 }
 li{
     display: inline-block;
@@ -25,6 +26,7 @@ li{
 }
 .item1 {
     width: 50%;
+    background-color: #39c;
 }
 .item2 {
     width: 25%;
@@ -68,5 +70,5 @@ li{
 }
 ul:hover li:not(:hover) {
     
-    opacity: 0.5;
+    opacity: 0.3;
 }
